@@ -1,4 +1,4 @@
-# 🚀 Product CRUD API (FastAPI + SQLAlchemy)
+#  Product CRUD API (FastAPI + SQLAlchemy)
 
 A simple Product CRUD API built using FastAPI, SQLAlchemy, and environment-based configuration using `.env`.
 
@@ -108,6 +108,18 @@ DATABASE_URL=mysql+pymysql://fastapi_user:1234@localhost/fastapi_db
 ```bash
 uvicorn app.main:app --reload
 ```
+
+---
+
+### 6 How to Run Tests
+
+Run this command from project root:
+
+```
+python -m unittest discover -s tests
+```
+
+This will automatically run all test files inside tests/
 
 ---
 
