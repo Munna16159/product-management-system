@@ -5,7 +5,7 @@ from app import models, schemas, crud
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Office Product API")
+app = FastAPI(title="Product API")
 
 # Dependency
 def get_db():
